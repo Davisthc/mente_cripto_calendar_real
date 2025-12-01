@@ -5,15 +5,15 @@ import pandas as pd
 
 
 def main():
-    today_str = datetime.utcnow().strftime("%d/%m/%Y")
+    # Data de hoje no padrão dd/mm/yyyy
+    today = datetime.utcnow().strftime("%d/%m/%Y")
 
+    # Busca do dia atual com intervalo válido (Investing exige range)
     data = investpy.news.economic_calendar(
-        time_zone=None,
-        time_filter='time_only',
+        from_date=today,
+        to_date=today,
         countries=None,
-        importances=['high', 'medium'],
-        from_date=today_str,
-        to_date=today_str
+        importances=['high', 'medium']
     )
 
     df = pd.DataFrame(data)
@@ -21,32 +21,26 @@ def main():
     eventos = []
 
     for _, row in df.iterrows():
-        try:
-            data_formatada = datetime.strptime(row['date'], '%d/%m/%Y').strftime('%Y-%m-%d')
-        except:
-            continue
+        # Converte formato para yyyy-mm-dd
+        date = datetime.strptime(row['date'], "%d/%m/%Y").strftime("%Y-%m-%d")
 
-        hora = row.get('time', '—')
-        if hora.lower() == 'all day':
-            hora = '00:00'
-
-        impacto = (row.get('importance') or "").lower()
-        if impacto not in ('high', 'medium'):
-            continue
+        hora = row.get("time", "—")
+        if str(hora).lower() == "all day":
+            hora = "00:00"
 
         eventos.append({
-            "date": data_formatada,
+            "date": date,
             "time": hora,
             "country": row.get("currency", ""),
-            "impact": impacto,
+            "impact": row.get("importance", "").lower(),
             "title": row.get("event", "Sem título"),
             "previous": row.get("previous", "N/D"),
             "forecast": row.get("forecast", "N/D"),
             "actual": row.get("actual", "N/D")
         })
 
-    with open("today.json", "w", encoding="utf-8") as arquivo:
-        json.dump(eventos, arquivo, ensure_ascii=False, indent=2)
+    with open("today.json", "w", encoding="utf-8") as f:
+        json.dump(eventos, f, ensure_ascii=False, indent=2)
 
 
 if __name__ == "__main__":
