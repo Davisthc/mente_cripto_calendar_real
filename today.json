@@ -1,1 +1,134 @@
-[]
+[
+  {
+    "date": "2025-12-14",
+    "time": "21:30",
+    "country": "NZD",
+    "title": "Performance of Services Index  (Nov)",
+    "previous": "48.7",
+    "forecast": "N/D",
+    "actual": "N/D",
+    "raw_importance": "low",
+    "score": 30,
+    "impact": "low"
+  },
+  {
+    "date": "2025-12-14",
+    "time": "23:50",
+    "country": "JPY",
+    "title": "Tankan All Big Industry CAPEX  (Q4)",
+    "previous": "12.5%",
+    "forecast": "N/D",
+    "actual": "N/D",
+    "raw_importance": "medium",
+    "score": 60,
+    "impact": "medium"
+  },
+  {
+    "date": "2025-12-14",
+    "time": "23:50",
+    "country": "JPY",
+    "title": "Tankan All Small Industry CAPEX  (Q4)",
+    "previous": "-2.3%",
+    "forecast": "N/D",
+    "actual": "N/D",
+    "raw_importance": "low",
+    "score": 30,
+    "impact": "low"
+  },
+  {
+    "date": "2025-12-14",
+    "time": "23:50",
+    "country": "JPY",
+    "title": "Tankan Big Manufacturing Outlook Index  (Q4)",
+    "previous": "12",
+    "forecast": "N/D",
+    "actual": "N/D",
+    "raw_importance": "medium",
+    "score": 60,
+    "impact": "medium"
+  },
+  {
+    "date": "2025-12-14",
+    "time": "23:50",
+    "country": "JPY",
+    "title": "Tankan Large Manufacturers Index  (Q4)",
+    "previous": "14",
+    "forecast": "N/D",
+    "actual": "N/D",
+    "raw_importance": "medium",
+    "score": 60,
+    "impact": "medium"
+  },
+  {
+    "date": "2025-12-14",
+    "time": "23:50",
+    "country": "JPY",
+    "title": "Tankan Large Non-Manufacturers Diffusion Index  (Q4)",
+    "previous": "28",
+    "forecast": "N/D",
+    "actual": "N/D",
+    "raw_importance": "low",
+    "score": 30,
+    "impact": "low"
+  },
+  {
+    "date": "2025-12-14",
+    "time": "23:50",
+    "country": "JPY",
+    "title": "Tankan Large Non-Manufacturers Index  (Q4)",
+    "previous": "34",
+    "forecast": "N/D",
+    "actual": "N/D",
+    "raw_importance": "medium",
+    "score": 60,
+    "impact": "medium"
+  },
+  {
+    "date": "2025-12-14",
+    "time": "23:50",
+    "country": "JPY",
+    "title": "Tankan Small Manufacturers Diffusion Index  (Q4)",
+    "previous": "-1",
+    "forecast": "N/D",
+    "actual": "N/D",
+    "raw_importance": "low",
+    "score": 30,
+    "impact": "low"
+  },
+  {
+    "date": "2025-12-14",
+    "time": "23:50",
+    "country": "JPY",
+    "title": "Tankan Small Manufacturing Index  (Q4)",
+    "previous": "1",
+    "forecast": "N/D",
+    "actual": "N/D",
+    "raw_importance": "low",
+    "score": 30,
+    "impact": "low"
+  },
+  {
+    "date": "2025-12-14",
+    "time": "23:50",
+    "country": "JPY",
+    "title": "Tankan Small Non-Manufacturers Diffusion Index  (Q4)",
+    "previous": "10",
+    "forecast": "N/D",
+    "actual": "N/D",
+    "raw_importance": "low",
+    "score": 30,
+    "impact": "low"
+  },
+  {
+    "date": "2025-12-14",
+    "time": "23:50",
+    "country": "JPY",
+    "title": "Tankan Small Non-Manufacturing Index  (Q4)",
+    "previous": "14",
+    "forecast": "N/D",
+    "actual": "N/D",
+    "raw_importance": "low",
+    "score": 30,
+    "impact": "low"
+  }
+]
