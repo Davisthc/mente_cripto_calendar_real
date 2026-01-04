@@ -1,6 +1,6 @@
 [
   {
-    "date": "2026-01-03",
+    "date": "2026-01-04",
     "time": "00:00",
     "country": "",
     "title": "Russia - New Year's Day",
@@ -12,7 +12,7 @@
     "impact": "low"
   },
   {
-    "date": "2026-01-03",
+    "date": "2026-01-04",
     "time": "00:00",
     "country": "",
     "title": "Russia - New Year's Day",
@@ -22,5 +22,17 @@
     "raw_importance": "",
     "score": 30,
     "impact": "low"
+  },
+  {
+    "date": "2026-01-04",
+    "time": "17:30",
+    "country": "USD",
+    "title": "FOMC Member Kashkari Speaks",
+    "previous": "N/D",
+    "forecast": "N/D",
+    "actual": "N/D",
+    "raw_importance": "medium",
+    "score": 90,
+    "impact": "high"
   }
 ]
