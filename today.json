@@ -1,38 +1,26 @@
 [
   {
-    "date": "2026-01-10",
-    "time": "06:00",
-    "country": "EGP",
-    "title": "CPI (YoY)  (Dec)",
-    "previous": "12.30%",
-    "forecast": "12.50%",
-    "actual": "N/D",
-    "raw_importance": "low",
-    "score": 40,
-    "impact": "low"
-  },
-  {
-    "date": "2026-01-10",
-    "time": "12:00",
-    "country": "RWF",
-    "title": "CPI (YoY)  (Dec)",
-    "previous": "7.20%",
+    "date": "2026-01-11",
+    "time": "00:00",
+    "country": "",
+    "title": "Morocco - Independence Day",
+    "previous": "N/D",
     "forecast": "N/D",
     "actual": "N/D",
-    "raw_importance": "low",
-    "score": 40,
+    "raw_importance": "",
+    "score": 30,
     "impact": "low"
   },
   {
-    "date": "2026-01-10",
-    "time": "13:00",
-    "country": "EGP",
-    "title": "Core CPI (YoY)  (Dec)",
-    "previous": "12.50%",
-    "forecast": "12.40%",
+    "date": "2026-01-11",
+    "time": "00:00",
+    "country": "",
+    "title": "Morocco - Independence Day",
+    "previous": "N/D",
+    "forecast": "N/D",
     "actual": "N/D",
-    "raw_importance": "low",
-    "score": 65,
-    "impact": "medium"
+    "raw_importance": "",
+    "score": 30,
+    "impact": "low"
   }
 ]
