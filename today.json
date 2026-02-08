@@ -1,14 +1,74 @@
 [
   {
-    "date": "2026-02-07",
-    "time": "08:00",
-    "country": "CNY",
-    "title": "FX Reserves (USD)  (Jan)",
-    "previous": "3.358T",
+    "date": "2026-02-08",
+    "time": "06:40",
+    "country": "GBP",
+    "title": "BoE Gov Bailey Speaks",
+    "previous": NaN,
     "forecast": NaN,
-    "actual": "3.399T",
+    "actual": NaN,
+    "raw_importance": "medium",
+    "score": 60,
+    "impact": "medium"
+  },
+  {
+    "date": "2026-02-08",
+    "time": "23:30",
+    "country": "JPY",
+    "title": "Overall wage income of employees  (Dec)",
+    "previous": "1.7%",
+    "forecast": "3.0%",
+    "actual": NaN,
     "raw_importance": "low",
     "score": 30,
     "impact": "low"
+  },
+  {
+    "date": "2026-02-08",
+    "time": "23:30",
+    "country": "JPY",
+    "title": "Overtime Pay (YoY)  (Dec)",
+    "previous": "1.20%",
+    "forecast": NaN,
+    "actual": NaN,
+    "raw_importance": "low",
+    "score": 30,
+    "impact": "low"
+  },
+  {
+    "date": "2026-02-08",
+    "time": "23:50",
+    "country": "JPY",
+    "title": "Adjusted Current Account  (Dec)",
+    "previous": "313.78T",
+    "forecast": "2.95T",
+    "actual": NaN,
+    "raw_importance": "medium",
+    "score": 60,
+    "impact": "medium"
+  },
+  {
+    "date": "2026-02-08",
+    "time": "23:50",
+    "country": "JPY",
+    "title": "Bank Lending (YoY)  (Jan)",
+    "previous": "4.4%",
+    "forecast": "4.5%",
+    "actual": NaN,
+    "raw_importance": "low",
+    "score": 30,
+    "impact": "low"
+  },
+  {
+    "date": "2026-02-08",
+    "time": "23:50",
+    "country": "JPY",
+    "title": "Current Account n.s.a.  (Dec)",
+    "previous": "3.674T",
+    "forecast": "1.060T",
+    "actual": NaN,
+    "raw_importance": "medium",
+    "score": 60,
+    "impact": "medium"
   }
 ]
