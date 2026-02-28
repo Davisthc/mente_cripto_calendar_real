@@ -1,14 +1,50 @@
 [
   {
-    "date": "2026-02-21",
-    "time": "21:45",
-    "country": "NZD",
-    "title": "Core Retail Sales (QoQ)",
-    "previous": "1.2%",
+    "date": "2026-02-28",
+    "time": "10:30",
+    "country": "INR",
+    "title": "Cumulative Industrial Production  (Jan)",
+    "previous": "3.90%",
     "forecast": NaN,
     "actual": NaN,
-    "raw_importance": "medium",
-    "score": 75,
-    "impact": "medium"
+    "raw_importance": "low",
+    "score": 20,
+    "impact": "low"
+  },
+  {
+    "date": "2026-02-28",
+    "time": "10:30",
+    "country": "INR",
+    "title": "Federal Fiscal Deficit  (Jan)",
+    "previous": "8,558.42B",
+    "forecast": NaN,
+    "actual": NaN,
+    "raw_importance": "low",
+    "score": 20,
+    "impact": "low"
+  },
+  {
+    "date": "2026-02-28",
+    "time": "10:30",
+    "country": "INR",
+    "title": "Industrial Production (YoY)  (Jan)",
+    "previous": "7.8%",
+    "forecast": NaN,
+    "actual": NaN,
+    "raw_importance": "low",
+    "score": 20,
+    "impact": "low"
+  },
+  {
+    "date": "2026-02-28",
+    "time": "10:30",
+    "country": "INR",
+    "title": "Manufacturing Output (MoM)  (Jan)",
+    "previous": "8.1%",
+    "forecast": NaN,
+    "actual": NaN,
+    "raw_importance": "low",
+    "score": 20,
+    "impact": "low"
   }
 ]
