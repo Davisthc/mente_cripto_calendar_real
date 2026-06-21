@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "date": "2026-06-21",
+    "time": "13:00",
+    "country": "KWD",
+    "title": "CPI (MoM)  (May)",
+    "previous": "0.65%",
+    "forecast": NaN,
+    "actual": NaN,
+    "raw_importance": "low",
+    "score": 40,
+    "impact": "low"
+  },
+  {
+    "date": "2026-06-21",
+    "time": "13:00",
+    "country": "KWD",
+    "title": "CPI (YoY)  (May)",
+    "previous": "2.57%",
+    "forecast": NaN,
+    "actual": NaN,
+    "raw_importance": "low",
+    "score": 40,
+    "impact": "low"
+  }
+]
